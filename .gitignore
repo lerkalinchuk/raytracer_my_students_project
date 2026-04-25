@@ -1,0 +1,51 @@
+# Виртуальное окружение (САМОЕ ВАЖНОЕ!)
+venv/
+env/
+.venv/
+
+# Кэш Python (временные файлы)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Файлы сборки
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Логи и тесты
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Секреты и настройки окружения
+.env
+.envrc
+*.key
+*.pem
+
+# Редакторы кода
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Мои файлы с данными (если большие - раскомментировать)
+# data/*.csv
+# data/*.json
+
+# Временные файлы
+*.tmp
+*.bak
+*.orig
